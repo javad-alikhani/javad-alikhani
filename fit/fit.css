@@ -1,0 +1,1080 @@
+*{
+  font-family:B Yekan;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+ margin-right: 10%;
+    width: 100%;
+}
+.header{
+      width: 95%;
+      margin-right: 5%;
+      display: flex;
+      align-items: center;
+      margin-top: 2%;
+      padding-bottom: 15px;
+}
+.logo{
+    width: 14%;
+    transform: translate(50%,5%);
+}
+.logohyper{
+    width: 90%;
+}
+.search{
+    width: 80%;
+    margin-right: 5%;
+}
+#search{
+    max-width: 550px;
+    width: 500px;
+    height: 43px;
+    border-radius: 15px;
+    border: 1px solid #ced4da;
+    font-size: 14px;
+    box-shadow: 0px 0px 4px 0px #efefef; 
+    
+}
+.icon {
+    padding-right: 35px;
+    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat right;
+    background-size: 26px;
+  }
+  ::placeholder{
+    font-size: 17px;
+  }
+  .heart{
+    width: 11%;
+    max-width: 12%;
+    margin-right: 55px;
+    font-size: 25px;
+    
+  }
+  .fa-heart{
+color: black;
+width: 30px;
+
+  }
+ 
+
+
+  .fa-shopping-cart{
+    color: black;
+
+
+  }
+ 
+  .fa-user-circle-o{
+    width: 30px;
+    color:black;}
+  .shop{
+    font-size: 25px;
+  }
+   
+  .user{
+    color: white;
+    line-height: 1; 
+    font-size: 25px;
+  }
+  a{
+    text-decoration: none;
+    line-height: 1; 
+    font-size: 17px;
+    color: #9d9d9d;
+  }
+  @media screen and (max-width:800px){
+    .search{
+     display: none;}
+    .heart {
+      display: none;    
+     }
+     .logo{
+        width: 40%;
+        margin-right: 200px;
+        
+     }
+     .logohyper{
+        width: 100%;
+        
+     }
+    }
+    
+    
+
+
+.list{
+  width: 60%;
+  max-width: 55%;
+  
+}
+.home{
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+}
+
+.call{
+  align-items: center;
+  width: 36%;
+  max-width: 40%;
+  margin-top: 30px;
+  text-align: left;
+}
+
+
+
+
+.slider{
+  display: flex ;
+  width: 90%;
+ 
+  
+}
+#carouselExample{
+    width: 100%;
+    max-width: 75%;
+    border-radius: 30px;
+   
+}
+#slid{
+    width: 100%;
+    border-radius: 18px;
+    box-shadow: 2px 2px 10px 2px rgb(117, 143, 161);
+}
+.d-block {
+    width: 100%;
+    border-radius: 18px;
+    height: 500px;
+    
+}    
+
+.kharid{
+  width: 45%;
+  display: inline-block;
+}
+.khi{
+  width: 100%;
+  margin-top: 5px;
+  border-radius: 15px;
+  height: 240px;
+  margin-right: 20px;
+}
+#sistem{
+  margin-top: 10px;
+}
+.giner{
+  width: 95%;
+  display: flex;
+  margin-left: 100px;
+}
+
+.mokamel{
+  justify-content: space-between;
+max-width: 100%;
+text-align: center;
+width: 90%;
+text-decoration: none;
+  color: black;
+}
+#mkl{
+  margin-top: -30px;
+}
+
+
+
+
+
+
+.head{
+  width: 90%;
+  background-color:#EA3F45;
+  display: flex;
+  margin-top: 15px;
+  height: 330px;
+  border-radius: 25px;
+  box-shadow: 1px 1px 8px 1px rgb(252, 2, 2);
+}
+.off{
+  display: list-item;
+  width: 15%;
+  margin-right: 15px;
+  list-style-type: none;
+  
+}
+#offer{
+  margin-top: -1px;
+}
+.shgt{
+  width: 150px;
+  margin-top: 30px;
+  margin-right: 26px;
+}
+.scrol{
+  margin-top: 50px;
+  display: flex;
+  border-radius: 15px;
+  max-width: 1200px;
+  margin-top:10px ;
+  flex-wrap: nowrap;
+  height:310px;
+  text-align: center;
+  overflow-x: auto;
+  width: 1070px; 
+  background-color: white;
+}
+.scrol::-webkit-scrollbar{
+  height: 1px;
+}
+.scrolbar{
+  height: 200px;
+  border-radius: 25px;
+  margin-top: 20px;
+width: 220px;
+} 
+.whey{
+  color: black;
+  text-decoration: none;
+}
+.price{
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.whey:hover{
+  color: #EA3F45;
+}
+.price:hover{
+  color: #EA3F45;
+}
+
+
+
+.brandhpi{
+display: flex;
+margin-top: 50px;
+max-width: 90%;
+margin-top:10px ;
+flex-wrap: nowrap;
+text-align: center;
+overflow-x: auto;
+width: 1500px; 
+gap: 100px;
+}
+.brand{
+width: 110px;
+gap: 100px;
+}
+.brandhpi::-webkit-scrollbar{
+  height: 0;
+}
+
+
+.new{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.mhs{
+  width: 20%;
+ margin-top: 13px;
+}
+.cut{
+  width: 71%;
+  font-size: 18px;
+  text-align: left;
+}
+.dorecut{
+  margin: 10px;
+  color: #333;
+  text-decoration: none;
+}
+.hr2{
+  width: 86%;
+  margin-right: 5%;
+  margin-top: -5px;
+}
+
+
+.after{
+  width: 18%;
+  
+}
+.protein{
+  width: 100%;
+}
+.training{
+  color: black;
+  text-decoration: none;
+  margin-right: 10px;
+}
+.pric{
+  width: 100%;
+  text-align: left;
+  align-items: center;
+}
+#pric{
+  float: right;
+  margin-right: 10px;
+    font-size: 17px;
+    width: 20%;
+}
+.ps{
+  width: 20%;
+  text-align: left;
+}
+#shp{
+  margin-top: 9px;
+  font-size: 20px;
+}
+
+
+.starprotein{
+  width: 90%;
+  display: flex;
+  gap: 10px;
+  row-gap: 1rem;
+}
+.star{
+  width: 100%;
+  border-radius: 15px;
+transition: all 0.3s ease-in-out;
+overflow: hidden;
+}
+#sr{
+  box-shadow: 0px 0px 10px 2px #054616;
+}
+
+#str{
+  box-shadow: 0px 0px 10px 2px #7B29CA
+}
+#st{
+  box-shadow: 0px 0px 10px 2px #003480
+}
+.star:hover{
+scale: 1.1;
+}
+.starprotein:hover >.star:not(:hover){
+  filter: blur(0.5rem);
+}
+
+.wk{
+  display: flex;
+  width: 100%;
+}
+.week{
+  width: 40%;
+  padding-top: 25px;
+  padding-right: 17px;
+}
+#time{
+  display: flex;
+  width: 50%;
+  padding-top: 25px;
+  text-align: left;
+  margin-right: 18px;
+  color: black;
+  justify-content: space-between;
+}
+.day{
+  margin-top: -1px;
+  margin-right: 2px;
+}
+li{
+  list-style-type: none;
+  width: 100%;
+  margin-right: 18px;
+}
+.asli{
+  width: 100%;
+  display: flex;
+}
+.iso{
+  border: 1px solid rgb(228, 228, 228);
+border-radius: 10px;
+  width: 29%;
+}
+.iso-img{
+  width: 100%;
+  margin-top: 20px;
+  height: 500px;
+}
+
+.chosen{
+  width: 65%;
+  margin-right: 1%;
+border: 1px solid rgb(228, 228, 228);
+border-radius: 10px;
+}
+.mahsol{
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+}
+.h5{
+  width: 25%;
+  margin-right: 17px;
+  padding-top: 15px;
+}
+.hrj{   
+  margin-left: 10px;
+  width: 70%;
+  text-align: left;
+}
+.haraj{
+  margin: 5px;
+  color: #827f7f;
+  text-decoration: none;
+}
+.chosenhr{
+  width: 97%;
+  margin-right: 5px;
+margin-top: 2px;
+}
+.trim{
+  width: 100%;
+  display: flex;
+}
+.amino{
+  width: 24%;
+  margin-right: 14px;
+}
+.amino-img{
+  width: 100%;
+  
+}
+.prce{
+  margin-top: 29px;
+  margin-right: 15px;
+}
+#prc
+.hs{
+  margin-right: 45px;
+}
+
+.mokamel{
+  transition: all 0.3s ease-in-out;
+overflow: hidden;
+}
+.mokamel:hover{
+  scale: 1.2;
+}
+.mokamel:hover >.mokamel:not(:hover){
+  filter: blur(0.6rem);
+}
+
+#isoo{
+  display: none;
+}
+
+.sale{
+  width: 20%;
+  text-align: center;
+  border-bottom: 1px solid red;
+  margin-right: 39%;
+}
+#scl{
+  max-width: 98%;
+  width: 94%;
+  
+}
+.aftr{
+  width: 100%;
+  display: flex;
+  gap: 15px;
+}
+.before{
+  width: 97%;
+  margin-right: 35px;
+  filter: brightness(100%) contrast(100%) saturate(150%) blur(0px) hue-rotate(0deg);
+  transition-duration: 0.5s;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0px 0px 10px 2px #123FA0;
+}
+
+.before:hover{
+  scale: 1.1;
+}
+
+.footer{
+  width: 100%;
+  background-color: rgb(29, 29, 29);
+}
+.page{
+  width: 100%;
+  display: flex;
+}
+.send{
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 9%;
+  display: flex; justify-content: space-between;
+}
+
+.kala{
+width: 4%; 
+}
+.sen{
+  width: 88%;
+  display: flex;
+  margin-right: 100px;
+  justify-content: space-between;
+  border-bottom: 1px solid  white;
+ }
+.day7{
+  color: white;
+  width: 12%;
+}
+#psh{
+ 
+  margin-right: -8px;
+  margin-left: 15px;
+}
+#pardakht{
+  margin-right: -19px;
+}
+#kla{
+  margin-right: 22px;
+}
+ .hamed{
+  margin-right: 5%;
+  width: 22%;
+  display: block;
+  margin-top: 9px;
+ }
+.hamed-fit{
+  width: 70%;
+}
+
+.frosh{
+  color: white;
+  width: 71%;
+  font-size: 18px;
+  margin-right: 10px;
+}
+.phone{
+  display: grid;
+  width: 90%;
+  margin: 7px;
+}
+#phone{
+  font-size: 17px;
+  rotate: 260deg;
+}
+
+
+.page-me{
+  display: grid;
+  width: 18%;
+  margin-top: 19px;
+}
+.back{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  
+}
+.insta{
+  display: flex;
+  color: white;
+  width: 50%;
+  justify-content: space-between;
+}
+.git{
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.web{
+  color:  white;
+  text-decoration: none;
+}
+
+.rez{
+  width: 20%;
+  margin-top: 110px;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+/*پایان استایل*/
+
+
+
+@media screen and (max-width:1200px){
+ 
+   .logo{
+    margin-right: 39px;
+   }
+  .heart{
+   display: none;  
+ 
+  }}
+
+  @media screen and (max-width:800px){
+ 
+    .logo{
+     margin-right: 189px;
+     margin-top: 10px;
+    }
+   .heart{
+    display: none;  
+  
+   }}
+ 
+ 
+  
+
+@media screen and (max-width:800px){
+  .list{
+   margin-top: 27px;
+  }}
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width:1200px){
+    #slider2{
+     width: 1100px;
+    }
+    .kharid{
+      width: 50%;
+    } 
+    .khi{
+      width: 400px;
+    }
+  }
+
+  @media screen and (max-width:1100px){
+    #slider2{
+     width: 100%;
+    }
+   .kharid{
+    width: 50%;
+   }  
+   .khi{
+    width: 270px;
+   }
+  }
+
+  @media screen and (max-width:1000px){
+    #slider2{
+     width: 100%;
+    }
+    .kharid{
+      width: 50%;
+    } 
+    .khi{
+      width: 300px;
+      
+    }
+  }
+
+ 
+
+
+@media screen and (max-width:850px){
+ #slider2{
+ 
+  width: 100%;
+ }
+  .slider{
+   width:100%;
+   display: inline;
+  }
+  #slid{
+    width: 120%;
+  }
+  #carouselExample{
+    width: 100%;
+    
+  }
+  .d-block{
+width: 100%;
+height: 300px;
+  }
+  .kharid{
+    width: 100%;
+    margin-right: -19px;
+    margin-top: 10px;
+  }
+  .khi{
+    width: 100%;
+    
+    
+  }
+  #sis{
+    width: 90%;
+  }
+  #sistem{
+    width: 90%;
+  }
+}
+
+
+@media screen and (max-width:600px){
+ #slider2{
+  width: 600px;
+ }
+  .slider{
+   width:100%;
+   display: inline;
+  }
+  #slid{
+    width: 100%;
+  }
+  #carouselExample{
+    width: 100%;
+    
+  }
+  .d-block{
+width: 100px;
+height: 300px;
+  }
+  .kharid{
+    width: 100%;
+    margin-right: -19px;
+    margin-top: 10px;
+  }
+  .khi{
+    width: 10px;
+    
+    
+  }
+  #sis{
+    width: 450px;
+  }
+  #sistem{
+    width: 450px;
+  }
+}
+
+
+
+@media screen and (max-width:1000px){
+  .head{
+   width: 670px;
+  }
+  .off{
+    width: 5%;
+  } 
+  .scrol{
+    width: 68%;
+    margin-right: 150px;
+  }
+}
+
+@media screen and (max-width:800px){
+ .head{
+  width: 98%;
+ }
+  .off{
+  width: 10%;
+  margin-left: 18px;
+ }
+ .shgt{
+  margin-right: -10px;
+ }
+  .scrol{
+      width: 60%;
+      margin-right: 20%;
+  }}
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width:1000px){
+
+    .protein{
+        width: 100%;    
+    }}
+ 
+@media screen and (max-width:800px){
+  .new{
+       display: block;   
+  }
+  .mhs{
+    width: 100%;
+    margin-right: 10px;
+  }
+  .cut{
+    width: 100%;
+    text-align: right;
+  }
+
+  .protein{
+    width: 100%;
+   
+    
+  }
+
+  .training{
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+   
+  }
+ #pric{
+  font-size: 12px;
+  font-weight: bold;
+ }
+ #pricc{
+ 
+  font-size: 12px;
+  
+ }
+ 
+}
+
+
+@media screen and (max-width:1000px){
+  .starprotein{
+      width: 96%;
+    
+      margin-right: -10px;
+        }}
+
+
+@media screen and (max-width:800px){
+  .starprotein{
+      width: 100%;
+      display: block;
+      margin-right: -10px;
+        }
+        .star{
+          width: 100%;
+          margin-top: 15px;
+         
+        }
+        .star:hover{
+          scale: 1.0.9;
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1200px){
+  .iso-img{
+    height: 300px;
+  }}
+
+  @media screen and (max-width:1000px){
+    .iso-img{
+     width: 200px;
+    }
+    .week{
+      width: 1%;
+    }
+    #time{
+      margin-right: -5px;
+      margin-top: 13px;
+width: 60%;
+    } 
+    .khi{
+      width: 300px;
+      
+    }
+  }
+
+@media screen and (max-width:800px){
+  .asli{
+     width: 100%;
+    display: block;    
+    margin-right: -10px;
+
+  }
+  #time{
+    width: 50%;
+    margin-right: 210px;
+  }
+ 
+  .iso{
+    width: 100%;
+  }
+  .iso-img{
+    height: 400px;
+    width: 60%;
+    margin-right: 120px;
+    
+  }
+  #isoo{
+    display: inline;
+    width: 20%;
+  }
+   
+  .mahsol{
+    display: block;
+  }
+.h5{
+  width: 100%;
+}
+.hrj{
+  margin-right: 12px;
+  width: 100%;
+  color: #bdbbbb;
+  text-align: right;
+}
+  .chosen{
+    margin-top: 10px;
+    width: 100%;
+     margin-right: -1px;
+  }
+.chosenhr{
+  display: none;
+}
+
+.trim{
+  display: flex;
+  margin-top: 10px;
+  width: 100%;
+}
+.amino{
+  width: 100%;
+  text-align: center;
+}
+.amino-img{
+  width: 91%;
+}
+#prc{
+  font-size: 15px;
+}
+#shp{
+  padding-left: 38px;
+}
+
+   }
+
+
+
+
+
+
+@media screen and (max-width:1000px){
+  .giner{
+     width: 100%;
+     margin-right: -10px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  }
+     .mokamel{
+width:100%;
+     }
+     #mok{
+      margin-right: 18px;
+     }
+    #mkl{
+      width: 100%;
+      margin-right: 38px;
+    }
+   
+
+
+@media screen and (max-width:800px){
+  .giner{
+    margin-right: 60px;
+     width: 100%;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+     .mokamel{
+width:43%;
+
+     }
+     #mok{
+      margin: 1px;
+      margin-right: 16px;
+     }
+     #mkl{
+      display: none;
+     }
+   }
+
+
+
+   @media screen and (max-width:850px){
+    .sale{
+      width: 50%;
+      margin-right: 90px;
+    }
+    #scl{
+      width: 100%;
+      margin-right: -10px;
+    }
+   
+   }
+   @media screen and (max-width:850px){
+    .aftr{
+      display: grid;
+      width: 100%;
+      margin-right: -40px;
+    }
+   }
+
+   @media screen and (max-width:740px){
+    .page{
+      width: 100%;
+    }
+    .hamed{
+      width: 40%;
+    }
+    .page-me{
+      width: 100%;
+      display: none ;
+    }
+    #instagram{
+      display: block;
+      width: 40%;
+    }
+    #ins{
+      width: 100%;
+      margin: 4px;
+    }
+    .web{
+      display: block;
+      width: 100%;
+    }
+  
+   }
