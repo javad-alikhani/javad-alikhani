@@ -7,13 +7,13 @@ body{
     padding: 0;
 
 }
-.container{
- margin-right: 10%;
-    width: 100%;
+#cont{
+ margin-right: 9%;
+    width: 90%;
 }
 .header{
-      width: 95%;
-      margin-right: 5%;
+      width: 97%;
+      margin-right: 3%;
       display: flex;
       align-items: center;
       margin-top: 2%;
@@ -95,6 +95,7 @@ width: 30px;
      }
      .logo{
         width: 40%;
+        transform: translate(40%,10%);
         margin-right: 200px;
         
      }
@@ -108,8 +109,9 @@ width: 30px;
 
 
 .list{
-  width: 60%;
-  max-width: 55%;
+  width: 100%;
+  max-width: 60%;
+  align-items: center;
   
 }
 .home{
@@ -122,7 +124,6 @@ width: 30px;
   align-items: center;
   width: 36%;
   max-width: 40%;
-  margin-top: 30px;
   text-align: left;
 }
 
@@ -131,13 +132,13 @@ width: 30px;
 
 .slider{
   display: flex ;
-  width: 90%;
+  width: 95%;
  
   
 }
 #carouselExample{
     width: 100%;
-    max-width: 75%;
+    max-width:75%;
     border-radius: 30px;
    
 }
@@ -154,7 +155,7 @@ width: 30px;
 }    
 
 .kharid{
-  width: 45%;
+  width: 25%;
   display: inline-block;
 }
 .khi{
@@ -191,7 +192,7 @@ text-decoration: none;
 
 
 .head{
-  width: 90%;
+  width: 96%;
   background-color:#EA3F45;
   display: flex;
   margin-top: 15px;
@@ -224,7 +225,7 @@ text-decoration: none;
   height:310px;
   text-align: center;
   overflow-x: auto;
-  width: 1070px; 
+  width: 1180px; 
   background-color: white;
 }
 .scrol::-webkit-scrollbar{
@@ -259,12 +260,12 @@ width: 220px;
 .brandhpi{
 display: flex;
 margin-top: 50px;
-max-width: 90%;
+max-width: 95%;
 margin-top:10px ;
 flex-wrap: nowrap;
 text-align: center;
 overflow-x: auto;
-width: 1500px; 
+width: 1580px; 
 gap: 100px;
 }
 .brand{
@@ -274,6 +275,7 @@ gap: 100px;
 .brandhpi::-webkit-scrollbar{
   height: 0;
 }
+
 
 
 .new{
@@ -286,7 +288,7 @@ gap: 100px;
  margin-top: 13px;
 }
 .cut{
-  width: 71%;
+  width: 76%;
   font-size: 18px;
   text-align: left;
 }
@@ -296,14 +298,14 @@ gap: 100px;
   text-decoration: none;
 }
 .hr2{
-  width: 86%;
+  width: 91%;
   margin-right: 5%;
   margin-top: -5px;
 }
 
 
 .after{
-  width: 18%;
+  width: 19%;
   
 }
 .protein{
@@ -336,7 +338,7 @@ gap: 100px;
 
 
 .starprotein{
-  width: 90%;
+  width: 95%;
   display: flex;
   gap: 10px;
   row-gap: 1rem;
@@ -485,13 +487,14 @@ overflow: hidden;
   width: 94%;
   
 }
+
 .aftr{
   width: 100%;
   display: flex;
-  gap: 15px;
+  gap: 40px;
 }
 .before{
-  width: 97%;
+  width: 100%;
   margin-right: 35px;
   filter: brightness(100%) contrast(100%) saturate(150%) blur(0px) hue-rotate(0deg);
   transition-duration: 0.5s;
@@ -502,6 +505,8 @@ overflow: hidden;
 .before:hover{
   scale: 1.1;
 }
+
+
 
 .footer{
   width: 100%;
@@ -604,7 +609,14 @@ width: 4%;
   justify-content: space-between;
 }
 
-
+.bishtar{
+  width: 10%;
+  border: none;
+  background-color: #EA3F45;
+  color: white;
+  border-radius: 5px;
+  margin-right: 45%;
+}
 
 
 
@@ -640,29 +652,44 @@ width: 4%;
 
 @media screen and (max-width:800px){
   .list{
-   margin-top: 27px;
+  font-size: 1px;
   }}
 
 
 
 
 
+  #shpp{
+    font-size: 20px;
+  }
+
+  @media screen and (max-width:1300px){
+    .after{
+     width: 100%;
+    }
+    .pric{
+      text-align: center;
+    }
+    #shpp{
+      width: 100%;
+      text-align: center;
+      font-size: 20px;
+    }
+  }
 
 
 
 
 
-
-
-  @media screen and (max-width:1200px){
+  @media screen and (max-width:1240px){
     #slider2{
      width: 1100px;
     }
     .kharid{
-      width: 50%;
+      width: 58%;
     } 
     .khi{
-      width: 400px;
+      width: 360px;
     }
   }
 
@@ -694,9 +721,8 @@ width: 4%;
  
 
 
-@media screen and (max-width:850px){
+@media screen and (max-width:950px){
  #slider2{
- 
   width: 100%;
  }
   .slider{
@@ -704,7 +730,7 @@ width: 4%;
    display: inline;
   }
   #slid{
-    width: 120%;
+    width: 126%;
   }
   #carouselExample{
     width: 100%;
@@ -725,88 +751,64 @@ height: 300px;
     
   }
   #sis{
-    width: 90%;
+    width: 94%;
   }
   #sistem{
-    width: 90%;
-  }
-}
-
-
-@media screen and (max-width:600px){
- #slider2{
-  width: 600px;
- }
-  .slider{
-   width:100%;
-   display: inline;
-  }
-  #slid{
-    width: 100%;
-  }
-  #carouselExample{
-    width: 100%;
-    
-  }
-  .d-block{
-width: 100px;
-height: 300px;
-  }
-  .kharid{
-    width: 100%;
-    margin-right: -19px;
-    margin-top: 10px;
-  }
-  .khi{
-    width: 10px;
-    
-    
-  }
-  #sis{
-    width: 450px;
-  }
-  #sistem{
-    width: 450px;
+    width: 94%;
   }
 }
 
 
 
-@media screen and (max-width:1000px){
-  .head{
-   width: 670px;
-  }
-  .off{
-    width: 5%;
-  } 
-  .scrol{
-    width: 68%;
-    margin-right: 150px;
-  }
-}
 
-@media screen and (max-width:800px){
+
+
+
+
+@media screen and (max-width:1240px){
  .head{
-  width: 98%;
+  width: 96%;
  }
   .off{
   width: 10%;
   margin-left: 18px;
  }
  .shgt{
-  margin-right: -10px;
+  margin-right: 25px;
  }
   .scrol{
-      width: 60%;
-      margin-right: 20%;
+      width: 75%;
+      margin-right: 10%;
   }}
 
 
+  @media screen and (max-width:950px){
+    .head{
+     width: 97%;
+    }
+     .off{
+     width: 20%;
+     margin-left: 18px;
+    }
+    .shgt{
+     margin-right: 5px;
+    }
+     .scrol{
+         width: 74%;
+         margin-right: 9%;
+     }}
+   
+   
+   
+   
 
 
 
+     @media screen and (max-width:1240px){
 
-
+      .protein{
+          width: 100%;    
+      }}
 
 
 
@@ -895,7 +897,13 @@ height: 300px;
 @media screen and (max-width:1200px){
   .iso-img{
     height: 300px;
-  }}
+  
+  }
+  #time{
+    margin-right: -50px;
+    
+width: 60%;
+  } }
 
   @media screen and (max-width:1000px){
     .iso-img{
@@ -914,6 +922,7 @@ width: 60%;
       
     }
   }
+
 
 @media screen and (max-width:800px){
   .asli{
@@ -988,44 +997,45 @@ width: 60%;
 
 
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:1300px){
   .giner{
      width: 100%;
-     margin-right: -10px;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  }
-     .mokamel{
-width:100%;
-     }
-     #mok{
-      margin-right: 18px;
-     }
-    #mkl{
-      width: 100%;
-      margin-right: 38px;
-    }
-   
-
-
-@media screen and (max-width:800px){
-  .giner{
-    margin-right: 60px;
-     width: 100%;
-    display: block;
     align-items: center;
     justify-content: space-between;
     
   }
+
+  
+     #mok{
+      margin-right: 24px;
+      width: 100%;
+      
+     }
+    #mkl{
+      width: 100%;
+     margin-right: 40px;
+    }
+  }
+
+
+@media screen and (max-width:800px){
+  .giner{
+    margin-right: 2px;
+     width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
      .mokamel{
-width:43%;
+width:100%;
+
 
      }
      #mok{
       margin: 1px;
-      margin-right: 16px;
+      width: 50px;
+      margin-right: 40px;
      }
      #mkl{
       display: none;
@@ -1033,6 +1043,17 @@ width:43%;
    }
 
 
+   @media screen and (max-width:1400px){
+    .sale{
+      width: 50%;
+      margin-right: 90px;
+    }
+    #scl{
+      width: 96%;
+      margin-right: -10px;
+    }
+   
+   }
 
    @media screen and (max-width:850px){
     .sale{
@@ -1045,11 +1066,42 @@ width:43%;
     }
    
    }
+
+
+
+
+
+
+
+
+   /**/
+   @media screen and (max-width:1300px){
+    .bishtar{
+      margin-right: 150px;
+      width: 30%;
+      
+    }
+   }
+
+
+
+
+   @media screen and (max-width:1450px){
+    .aftr{
+      
+      width: 96%;
+      margin-right: -40px;
+    }
+   }
+
    @media screen and (max-width:850px){
     .aftr{
       display: grid;
       width: 100%;
       margin-right: -40px;
+    }
+    .before:hover{
+      scale: 1.0.9;
     }
    }
 
