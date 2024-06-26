@@ -44,4 +44,6 @@ setTimeout(hide, 30000);
         
 function hide(){
     document.getElementById('preloader').style.display = "none";
-}
+};
+
+

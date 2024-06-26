@@ -95,8 +95,8 @@ width: 30px;
      }
      .logo{
         width: 40%;
-        transform: translate(40%,10%);
-        margin-right: 200px;
+        transform: translate(60%);
+       
         
      }
      .logohyper{
@@ -494,7 +494,7 @@ overflow: hidden;
   gap: 40px;
 }
 .before{
-  width: 100%;
+  width: 97%;
   margin-right: 35px;
   filter: brightness(100%) contrast(100%) saturate(150%) blur(0px) hue-rotate(0deg);
   transition-duration: 0.5s;
@@ -1088,8 +1088,7 @@ width:100%;
 
    @media screen and (max-width:1450px){
     .aftr{
-      
-      width: 96%;
+      width: 97%;
       margin-right: -40px;
     }
    }
@@ -1130,3 +1129,5 @@ width:100%;
     }
   
    }
+   
+     
