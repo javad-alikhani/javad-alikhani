@@ -173,7 +173,18 @@ width: 30px;
   display: flex;
   margin-left: 100px;
 }
-
+#giner{
+  display: block;width: 20%;
+  text-align: center;
+}
+.karnitin{
+  width: 100%;
+  
+}
+#gin{
+  width: 100%;
+ 
+}
 .mokamel{
   justify-content: space-between;
 max-width: 100%;
@@ -377,10 +388,10 @@ scale: 1.1;
 }
 #time{
   display: flex;
-  width: 50%;
+  width: 35%;
   padding-top: 25px;
   text-align: left;
-  margin-right: 18px;
+  margin-right: 5px;
   color: black;
   justify-content: space-between;
 }
@@ -492,9 +503,10 @@ overflow: hidden;
   width: 100%;
   display: flex;
   gap: 40px;
+  margin-right: 2%;
 }
 .before{
-  width: 97%;
+  max-width: 95%;
   margin-right: 35px;
   filter: brightness(100%) contrast(100%) saturate(150%) blur(0px) hue-rotate(0deg);
   transition-duration: 0.5s;
@@ -791,7 +803,7 @@ height: 300px;
      margin-left: 18px;
     }
     .shgt{
-     margin-right: 5px;
+     margin-right: 1px;
     }
      .scrol{
          width: 74%;
@@ -925,11 +937,7 @@ width: 60%;
 
 
 @media screen and (max-width:800px){
-  .asli{
-     width: 100%;
-    display: block;    
-    margin-right: -10px;
-
+C
   }
   #time{
     width: 50%;
@@ -1016,7 +1024,11 @@ width: 60%;
      margin-right: 40px;
     }
   }
-
+  @media screen and (max-width:900px){
+    #mkl{
+      display: none;
+     }
+  }
 
 @media screen and (max-width:800px){
   .giner{
@@ -1061,7 +1073,7 @@ width:100%;
       margin-right: 90px;
     }
     #scl{
-      width: 100%;
+      width: 94%;
       margin-right: -10px;
     }
    
@@ -1094,6 +1106,10 @@ width:100%;
    }
 
    @media screen and (max-width:850px){
+   .before{
+   width: 100%;
+    max-width: 95%;
+   }
     .aftr{
       display: grid;
       width: 100%;

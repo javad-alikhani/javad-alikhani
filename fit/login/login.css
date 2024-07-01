@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
 }
+
 ::selection {
     background-color: gray;
   }
@@ -10,17 +11,18 @@ body{
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    align-items: center;transform: translate(10%,20%);
+    align-items: center;
   }
   
   .form {
     width: 400px;
     height: 450px;
-    background-image: linear-gradient(to bottom, #424242,#212121);
+    background-image: linear-gradient(to bottom, #212020,#212121);
     display: flex;
     align-items: center;
     flex-direction: column;
     border-radius: 0.5rem;
+    margin-top: 10%;
    
   }
   
@@ -78,4 +80,4 @@ body{
     background-color: antiquewhite;
     box-shadow: none;
   }
-  
+ 
