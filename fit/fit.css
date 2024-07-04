@@ -150,7 +150,7 @@ width: 30px;
 .d-block {
     width: 100%;
     border-radius: 18px;
-    height: 500px;
+    height: 450px;
     
 }    
 
@@ -160,13 +160,13 @@ width: 30px;
 }
 .khi{
   width: 100%;
-  margin-top: 5px;
+  margin-top: 10px;
   border-radius: 15px;
-  height: 240px;
+height: 200px;
   margin-right: 20px;
 }
 #sistem{
-  margin-top: 10px;
+  margin-top: 19px;
 }
 .giner{
   width: 95%;
@@ -522,6 +522,7 @@ overflow: hidden;
 
 .footer{
   width: 100%;
+  padding-bottom: 30px;
   background-color: rgb(29, 29, 29);
 }
 .page{
@@ -937,8 +938,8 @@ width: 60%;
 
 
 @media screen and (max-width:800px){
-C
-  }
+
+  
   #time{
     width: 50%;
     margin-right: 210px;
@@ -998,8 +999,8 @@ C
   padding-left: 38px;
 }
 
-   }
-
+   
+}
 
 
 
