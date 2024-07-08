@@ -2,66 +2,7 @@ body{
     margin: 0;
     padding: 0;
 }
-/*.stor{
-    width: 100%;
-    display: flex;
-}
-.Products{
-    width: 20%;
-    display: block;
-}
-.pruc{
-    width: 100%;
-}
-.Food{
-    display: grid;
-    gap: 10px;
-    width: 100%;
-}
-.Fod{
-    font-size: 19px;
-    color: rgb(135, 132, 132);
-}
 
-.brnd{
-    display: flex;
-    width: 100%;
-    margin-top: 10px;
-}
-
-.mrk{
-    width: 80%;
-}
-
-.mrk:hover{
-    opacity: 0.5;
-}
-.srs{
-    display: flex;
-    width: 60%;
-}
-.nms{
-    cursor: pointer;
-    font-size: 18px;
-
-    color: rgb(165, 163, 163);
-}
-#nms{
-    color: black;
-}
-.form{
-    width: 22%;
-}
-.input{
-    height: 22px;
-    margin-top: 15px;
-}
-::placeholder{
-    font-size: 18px;
-}
-datalist{
-    background-color: red;
-}*/
 
 #anatomi{
     display: grid;
@@ -114,13 +55,14 @@ cursor: pointer;
     }
 }
 @media screen and (max-width:800px){
-    #anatomi,#asle,#wk,.input,hr,.brnd,.trec{
+   #ios{
         display: none;
     }
 }
 @media screen and (max-width:600px){
     #anatomi,#asle,#wk,.input,hr,.brnd,.trec{
         display: none;
+        
     }
 
    
